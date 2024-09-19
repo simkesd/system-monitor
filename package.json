@@ -1,0 +1,25 @@
+{
+  "name": "sytem-monitor",
+  "version": "0.0.1a0",
+  "description": "A simple Node.js project using cron",
+  "main": "src/cron.js", 
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "systeminformation": "^5.23.5"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development && node src/cron.js",
+    "prod": "NODE_ENV=production && node src/cron.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "eslint": "^9.10.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3"
+  }
+}
