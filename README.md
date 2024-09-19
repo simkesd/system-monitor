@@ -9,3 +9,7 @@ The app uses `node-cron` library to set up a cron job that runs on 5 minute inte
 - Add `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` and `DATABASE_PATH` to appropriate `.env` file (`.env.development` for your local, and `.env.production` for production)
 - Run `npm run dev` to start the cron with development env variables or
 - Run `npm run prod` to start the cron with production env variables
+
+## Demo
+
+![system-monitor-demo](https://github.com/user-attachments/assets/aa063b97-1794-458c-bae6-e8ff79cbd17d)
